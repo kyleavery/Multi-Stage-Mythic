@@ -1,0 +1,75 @@
+variable "mythic_server_name" {
+  default = "Mythic"
+}
+
+variable "mythic_user" {
+  // Change this
+  default = ""
+}
+
+variable "mythic_password" {
+  // Change this
+  default = ""
+}
+
+variable "operation_name" {
+  default = "Mythic Demo"
+}
+
+variable "azure_sub_id" {
+  // Change this
+  default = ""
+}
+
+variable "azurecdn_name" {
+  // Change this
+  default = ""
+}
+
+variable "azurecdn_loc" {
+  default = "West US"
+}
+
+variable "aws_region" {
+  default = "us-east-2"
+}
+
+variable "aws_az" {
+  default = "us-east-2a"
+}
+
+variable "aws_instance_type" {
+  default = "t2.medium"
+}
+
+variable "aws_ami" {
+  default = "ami-00399ec92321828f5"
+}
+
+variable "aws_cred_file" {
+  // Change this
+  default = ""
+}
+
+variable "public_key_name" {
+  default = "mythic_public_key"
+}
+
+variable "public_key_path" {
+  // Change this
+  default = ""
+}
+
+variable "private_key_path" {
+  // Change this
+  default = ""
+}
+
+variable "aws_ip_allowlist" {
+  // Change this
+  default = [""]
+}
+
+variable "aws_dns_servers" {
+  default = ["9.9.9.9","149.112.112.112"]
+}
